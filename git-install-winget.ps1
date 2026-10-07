@@ -1,4 +1,6 @@
 # Requires -RunAsAdministrator
+
+#to run:
 #Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 #.\git-install-winget.ps1
 
