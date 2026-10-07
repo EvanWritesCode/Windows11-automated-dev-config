@@ -1,4 +1,6 @@
 # Requires -RunAsAdministrator
+#Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+#.\git-install-winget.ps1
 
 Write-Host "==> Checking administrative privileges..." -ForegroundColor Cyan
 $isAdmin = ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
